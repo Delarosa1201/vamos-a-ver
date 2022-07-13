@@ -17,9 +17,6 @@ a {
     color: var(--white30);
 }
 
-.header {
-}
-
 .header-content {
     padding-inline: 20px;
 }
@@ -172,7 +169,6 @@ blockquote p {
  }
 
 /*.slider {
-
 }*/
 
  .slider-container {
@@ -229,9 +225,11 @@ blockquote p {
  }
 
  @media screen and (min-width: 1366px) {
+
         .hero {
             block-size: 350px;
-        }    
+        }
+
         .header {
             position: sticky;
             inset-block-start: -45px;
@@ -249,6 +247,7 @@ blockquote p {
             inset-inline-start: -208px;
             inline-size: 188px;
         }
+
         h1 {
             font-size: 60px;
             margin-block-start: 64px;
